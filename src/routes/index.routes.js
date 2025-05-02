@@ -5,7 +5,7 @@ const router = Router();
 router.get("/", indexcontroller)
 router.get("/home", homeController)
 router.post("/create-user", createUser)
-router.get("get-all", getUserController)
+router.get("/get-all", getUserController)
 // router.post("/create-user", )
 
 module.exports = router
