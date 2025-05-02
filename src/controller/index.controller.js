@@ -27,7 +27,7 @@ module.exports.getUserController = async (req, res) => {
   } catch (error) {
     console.error(error);
   }
-};
+}; 
 
 module.exports.homeController = (req, res) => {
   res.render("home");
