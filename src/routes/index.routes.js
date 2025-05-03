@@ -6,6 +6,7 @@ router.get("/", indexcontroller)
 router.get("/home", homeController)
 router.post("/create-user", createUser)
 router.get("/get-all", getUserController)
+// router.get("/edit-user", userController);
 // router.post("/create-user", )
 
 module.exports = router
